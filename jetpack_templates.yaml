@@ -1,0 +1,21 @@
+# Jetpack Template definitions
+templates:
+  # the keys here are the directory names
+  
+  "api":
+    option: "REST API using FastAPI"
+    post_intall: |
+      APP initialized successfully.
+      To test it, run `jetpack dev` inside the projet's directory and follow the instructions.
+
+      You can implement your project in the `main/app.py` there's also a `Dockerfile` and the `requirements.txt` for the project.
+      Read the jectpack docs at https://docs.jetpack.io
+
+      Happy hacking!
+
+  "background_job":
+    option: "Background job"
+
+  "cronjb":
+    option: "Cron job that runs at a regular interval"
+
