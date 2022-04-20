@@ -2,9 +2,9 @@
 templates:
   # the keys here are the directory names
   
-  "api":
-    option: "REST API using FastAPI"
-    post_intall: |
+  - dirname: "api"
+    option_text: "REST API using FastAPI"
+    post_intall_text: |
       APP initialized successfully.
       To test it, run `jetpack dev` inside the projet's directory and follow the instructions.
 
@@ -13,9 +13,9 @@ templates:
 
       Happy hacking!
 
-  "background_job":
-    option: "Background job"
+  - dirname: "background_job"
+    option_text: "Background job"
 
-  "cronjb":
-    option: "Cron job that runs at a regular interval"
+  - dirname: "cronjob"
+    option_text: "Cron job that runs at a regular interval"
 
