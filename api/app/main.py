@@ -7,6 +7,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root() -> Dict[str, str]:
-    return {
-        "message": "Hello World!"
-    }
+    return {"message": "Hello World!"}
