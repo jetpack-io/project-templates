@@ -4,7 +4,7 @@ templates:
   
   - dir: "api"
     option_text: "REST API using FastAPI"
-    post_intall_text: |
+    post_install_text: |
       APP initialized successfully.
       To test it, run `jetpack dev` inside the projet's directory and follow the instructions.
 
