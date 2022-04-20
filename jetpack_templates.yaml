@@ -6,9 +6,9 @@ templates:
     option_text: "REST API using FastAPI"
     post_install_text: |
       APP initialized successfully.
-      To test it, run `jetpack dev` inside the projet's directory and follow the instructions.
+      To test it, run `jetpack dev` inside the project's directory, and follow the instructions.
 
-      You can implement your project in the `main/app.py` there's also a `Dockerfile` and the `requirements.txt` for the project.
+      You can add your code to the `main/app.py` file, there's also a `Dockerfile` and the `requirements.txt` for the project.
       Read the jectpack docs at https://docs.jetpack.io
 
       Happy hacking!
@@ -17,5 +17,5 @@ templates:
     option_text: "Background Job"
 
   - dir: "cronjob"
-    option_text: "Cron job that runs at a regular interval"
+    option_text: "Job that runs at a regular interval (cron-like)"
 
