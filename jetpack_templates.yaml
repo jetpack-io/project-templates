@@ -2,7 +2,7 @@
 templates:
   # the keys here are the directory names
   
-  - dirname: "api"
+  - dir: "api"
     option_text: "REST API using FastAPI"
     post_intall_text: |
       APP initialized successfully.
@@ -13,9 +13,9 @@ templates:
 
       Happy hacking!
 
-  - dirname: "background_job"
-    option_text: "Background job"
+  - dir: "background_job"
+    option_text: "Background Job"
 
-  - dirname: "cronjob"
+  - dir: "cronjob"
     option_text: "Cron job that runs at a regular interval"
 
