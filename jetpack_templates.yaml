@@ -1,0 +1,63 @@
+# Jetpack Template definitions
+templates:
+  # the keys here are the directory names
+  
+  - dir: "api"
+    option_text: "REST API using FastAPI"
+    post_install_text: |
+      Created: 
+        - app/main.py
+        - Dockerfile
+        - requirements.txt
+        - README.md
+
+      Project initialized successfully!
+
+      To debug live in your cluster: 
+      Run `jetpack dev` in your project folder
+
+      To deploy to your cluster:
+      Run `jetpack up` in your project folder
+      
+      Read the docs at https://docs.jetpack.io
+
+  - dir: "background_job"
+    option_text: "Background Job"
+    post_install_text: |
+      Created: 
+        - app/main.py
+        - Dockerfile
+        - requirements.txt
+        - README.md
+
+      Project initialized successfully!
+
+      To debug live in your cluster: 
+      Run `jetpack dev` in your project folder
+
+      To deploy to your cluster:
+      Run `jetpack up` in your project folder
+      
+      Read the docs at https://docs.jetpack.io
+
+
+  - dir: "cronjob"
+    option_text: "Recurring Task (CronJob)"
+    post_install_text: |
+      Created: 
+        - app/main.py
+        - Dockerfile
+        - requirements.txt
+        - README.md
+
+      Project initialized successfully!
+
+      To debug live in your cluster: 
+      Run `jetpack dev` in your project folder
+
+      To deploy to your cluster:
+      Run `jetpack up` in your project folder
+      
+      Read the docs at https://docs.jetpack.io
+
+
