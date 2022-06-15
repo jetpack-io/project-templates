@@ -1,0 +1,16 @@
+configVersion: "1.0"
+application:
+  name: api
+environment:
+  dev:
+    flags:
+      min-replicas: 1
+      public: true
+  preview:
+    flags:
+      min-replicas: 1
+      public: true
+  prod:
+    flags:
+      min-replicas: 1
+      public: true
