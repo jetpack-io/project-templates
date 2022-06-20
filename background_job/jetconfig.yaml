@@ -6,10 +6,6 @@ environment:
     flags:
       min-replicas: 1
       public: true
-  preview:
-    flags:
-      min-replicas: 1
-      public: true
   prod:
     flags:
       min-replicas: 1
